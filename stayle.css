@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+}
+.img1{
+    width: 2cm;
+}
+
+
+.img2{
+    width: 90%;
+    margin-left: 1cm;
+    margin-top: 2cm;
+    margin-bottom: 1.5cm;
+    border-radius: 15px;
+    
+
+}
+.Products{
+    font: 700 24px / 32px Noto-regional, Noto-latin, TCCC-UnityText, sans-serif;
+    font-size: 40px;
+}
+.Bottlebox{
+    width:40%;
+    height: auto;
+    background-color: #fff;
+    margin:  1cm;
+    border-radius: 20px;
+    
+}
+.img3{
+    width: 90%;
+
+}
+.part2{
+    display: flex;
+}
+.para{
+    width: 50%;
+    height: auto;
+    
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+
+}
+.alert-heading{
+    padding-top: 3cm;
+    padding-left:2cm ;
+}
+.paragraph1{
+    padding-left: 2cm;
+}
+.button1{
+width: 60%; 
+border-radius: 50px;
+color: #000;
+block-size: 40px;
+margin-left: 2cm;
+
+}
+
+
+
+.button1:hover{
+    color: #000;
+    background:#c0d7c6;
+   
+}
+
+
+.maindiv{
+    width: 100%;
+    background-color: silver;
+    height: auto;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+
+}
+.card-image.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40%;
+}
+.ifdiv{
+    width:94% ;
+    height: 16cm;
+    padding: 1.5cm;
+    margin-left: 1.5cm;
+}
+.video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; 
+    border-radius: 20px;
+}
+    
+@media screen and (max-width: 768px) {
+    .ifdiv{
+        height: 10cm;
+        width: 97%;
+        padding: .5cm;
+        margin-left: 1.5cm;
+    }
+    .Bottlebox{
+        width: 87%;
+        margin-right: 2cm;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .para{
+        width: 100%;
+        margin-top: 0cm;
+    }
+    .alert-heading{
+        text-align: center;
+        padding-top: 0cm;
+    }
+    .paragraph1{
+        padding-left: .7cm;
+        margin-left: .5cm;
+    }
+    .button1{
+        width: 95%;
+        margin-left: .5cm;
+    }
+     
+  }
+  .Bottlebox1{
+    width:34%;
+    height:35%;
+    margin: 1cm;
+
+  }
+  .img4{
+    width: 100%;
+    border-radius: 20px;
+
+  }
+  @media screen and (max-width: 992px) {
+    
+    .Bottlebox1{
+        width: 87%;
+        margin-right: 2cm;
+    }
+  }
+  .part3{
+    display: flex;
+}
+.para1{
+    width: 50%;
+    height: auto;
+    
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+
+}
+.paragraph2{
+    padding-left: 2cm;
+}
+.alert-heading{
+    padding-top: 3cm;
+    padding-left:2cm ;
+}
+.button2{
+    width: 60%; 
+    border-radius: 50px;
+    color: #000;
+    block-size: 40px;
+    margin-left: 2cm;
+    
+    }
+    .button2:hover{
+        color: #000;
+        background:#c0d7c6;
+       
+    }
+    @media screen and (max-width: 1200px) {
+        .para1{
+            width: 100%;
+            margin-top: 0cm;
+        }
+        .alert-heading{
+            text-align: center;
+            padding-top: 0cm;
+        }
+        .paragraph2{
+            padding-left: .7cm;
+            margin-left: .5cm;
+        }
+        .button2{
+            width: 95%;
+            margin-left: .5cm;
+        }
+    }   
+    
+.footerbox2{
+width: 100%;
+height: 20cm;
+background-color: #000;
+}
+.img5{
+    width: 8cm;
+    float: left;
+}
+.footerbox{
+    width: 85%;
+    background-color: #000;
+    height:auto;
+    display: flex;
+}
+.foot1{
+    width: 50%;
+    height: 4cm;
+    
+
+}
+.foot2{
+    width: 50%;
+    height: 4cm;
+    display: flex;
+    padding-top: 65px;
+    padding-left: 2cm;
+
+
+}
+.a{
+width: 100%;
+height: 100%;
+}
+.lastfooter{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+
+}
